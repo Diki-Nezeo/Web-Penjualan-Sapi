@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sapi Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sapi Store</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#info-sapi">Info Sapi</a></li>
+          <li><a href="#pembelian">Pembelian</a></li>
+          <li><a href="#pembayaran">Pembayaran</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2>Selamat Datang di Sapi Store</h2>
+      <p>Tempat terbaik untuk membeli sapi berkualitas!</p>
+    </section>
+
+    <section id="info-sapi">
+      <h2>Daftar Sapi</h2>
+      <div class="sapi-container"></div>
+    </section>
+
+    <section id="pembelian">
+      <h2>Form Pembelian</h2>
+      <form id="orderForm">
+        <label for="sapi">Pilih Sapi:</label>
+        <select id="sapi"></select>
+
+        <label for="nama">Nama Anda:</label>
+        <input type="text" id="nama" required />
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" required></textarea>
+
+        <button type="submit">Beli Sekarang</button>
+      </form>
+    </section>
+
+    <section id="pembayaran">
+      <h2>Pembayaran</h2>
+      <p>Silakan lakukan pembayaran melalui rekening yang tersedia.</p>
+      <p>Bank XYZ - 1234567890 a.n. Sapi Store</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Sapi Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
