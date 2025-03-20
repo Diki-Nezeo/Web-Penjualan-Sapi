@@ -1,0 +1,17 @@
+[
+  {
+    "nama": "Sapi Brahman",
+    "harga": "25.000.000",
+    "gambar": "images/brahman.jpg"
+  },
+  {
+    "nama": "Sapi Limousin",
+    "harga": "30.000.000",
+    "gambar": "images/limousin.jpg"
+  },
+  {
+    "nama": "Sapi Simental",
+    "harga": "27.500.000",
+    "gambar": "images/simental.jpg"
+  }
+]
